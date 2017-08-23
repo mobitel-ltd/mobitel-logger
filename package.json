@@ -1,0 +1,27 @@
+{
+  "name": "mobitel-logger",
+  "version": "1.0.0",
+  "description": "NodeJs custom logger module wrapped over winston",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "eslint --quiet --ignore-pattern '/test/' .",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobitel-ltd/mobitel-logger.git"
+  },
+  "keywords": [
+    "log",
+    "logger",
+    "winston",
+    "wrap",
+    "mobitel"
+  ],
+  "author": "Dmitry Furman aka PragmaWolf, Mobitel Ltd <pragmawolf@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobitel-ltd/mobitel-logger/issues"
+  },
+  "homepage": "https://github.com/mobitel-ltd/mobitel-logger#readme"
+}
